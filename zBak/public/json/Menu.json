@@ -1,0 +1,12 @@
+[{
+"Menu":"CFDI",
+"nodes":[
+    {"Submenu1":"Renombrar archivos |/CFDI/Renombrar"}
+
+]},
+{
+"Menu":"Usuarios",
+"nodes":[
+    {"Submenu1":"Crear Usuario |/Usuarios/Crear"}
+
+]}]
