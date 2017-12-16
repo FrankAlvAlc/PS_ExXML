@@ -33,6 +33,7 @@ class Export extends Migration
             $table->string('clave_producto')->nullable();
             $table->string('unidad_medida')->nullable();
             $table->string('cve_unidad')->nullable();
+            $table->string('clave_producto')->nullable();
             $table->text('descripcion')->nullable();
             $table->double('val_uni')->nullable();
             $table->double('sub_total')->nullable();
@@ -53,6 +54,6 @@ class Export extends Migration
     public function down()
     {
         //
-         Schema::dropIfExists('Exports');
+         Schema::dropIfExists('Export');
     }
 }

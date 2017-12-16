@@ -70,9 +70,6 @@ class Usuarios_Controller extends Controller
           $TMensaje = "success";
           $NombreCompleto = $DatosGral[2].' '.$DatosGral[3].' '.$DatosGral[4];
 
-
-
-        // $Mail = 'carlos.alejandro@sanchezgrupo.com';
           Mail::to($Mail)
                ->send(new EnviarCredenciales($Pwd,$NombreCompleto,$UName));
         break;
